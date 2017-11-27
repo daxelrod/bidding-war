@@ -1,24 +1,38 @@
-# README
+# Bidding War
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web app for facilitating streaming marathon bidding wars.
 
-Things you may want to cover:
+## Still Taking Shape
 
-* Ruby version
+This is still very much a work in progress. Feel free to chip in some code!
 
-* System dependencies
+## Future Features
 
-* Configuration
+Allows participants to put money toward various types of marathon goals:
 
-* Database creation
+* Save/Kill the animals
+* Unlock an event at a certain money amount
+* Slench Pizza, bid on what toppings will go on a pizza the streamers will order
+* Name a character/save file/painting
 
-* Database initialization
+Streamers can incorporate data and displays directly into their streams.
 
-* How to run the test suite
+Bidding War does not itself collect payments, but it can associate bids with
+payments made through other payment processors.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Alternatives
 
-* Deployment instructions
+The [GamesDoneQuick Donation Tracker](https://github.com/GamesDoneQuick/donation-tracker).
 
-* ...
+## Developing
+
+Install Ruby 2.4 or newer and Bundler. Then:
+
+```bash
+bundle install
+rake # runs tests and linter
+```
+
+## License
+
+[MIT](LICENSE)
